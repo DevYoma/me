@@ -1,0 +1,67 @@
+@use '../styles/variables' as *;
+@use '../styles/mixins' as *;
+
+.header {
+  padding: 4rem 0 2rem 0;
+  
+  .name {
+    /* Using clamp for fluid typography: min 2.5rem, preferred 7vw, max 4.5rem */
+    font-size: clamp(2.5rem, 7vw, 4.5rem);
+    font-weight: 700;
+    margin: 0;
+    color: $primary-color;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+  }
+  
+  .creator {
+    font-size: 1rem;
+    color: $secondary-color;
+    margin-top: 2rem;
+    
+    strong {
+      color: $primary-color;
+      font-weight: 500;
+    }
+  }
+
+  .role {
+    font-size: 0.9rem;
+    color: $secondary-color;
+    margin-top: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+
+  .socials {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    font-size: 0.85rem;
+    
+    a {
+      color: $secondary-color;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      transition: all 0.2s ease;
+      
+      &:hover {
+        color: $primary-color;
+        border-bottom: 1px solid $primary-color;
+      }
+    }
+    
+    span {
+      color: #ddd;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .header {
+    .socials {
+      gap: 0.8rem;
+      font-size: 0.8rem;
+    }
+  }
+}

@@ -1,0 +1,102 @@
+@use '../../styles/variables' as *;
+
+.projectsContainer {
+  margin-top: 4rem;
+  
+  h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    color: $primary-color;
+  }
+}
+
+.projectList {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.project {
+  padding-left: 2rem;
+  border-left: 1px solid #eee;
+  transition: border-left 0.3s ease;
+  
+  [data-theme='dark'] & {
+    border-left-color: #222;
+  }
+  
+  &:hover {
+    border-left-color: $link-color;
+  }
+  
+  h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: $primary-color;
+  }
+  
+  .tech {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $secondary-color;
+    margin-bottom: 1rem;
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+    
+    span:not(:last-child)::after {
+      content: '•';
+      margin-left: 0.8rem;
+      opacity: 0.3;
+    }
+  }
+  
+  .description {
+    font-size: 1rem;
+    color: $primary-color;
+    margin-bottom: 1.5rem;
+    max-width: 600px;
+    line-height: 1.6;
+  }
+  
+  .links {
+    display: flex;
+    gap: 1.5rem;
+    
+    a {
+      font-size: 0.9rem;
+      color: $secondary-color;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      
+      &:hover {
+        color: $link-color;
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .projectsContainer {
+    margin-top: 2rem;
+  }
+
+  .project {
+    padding-left: 1.2rem;
+    
+    h2 {
+      font-size: 1.1rem;
+    }
+    
+    .description {
+      font-size: 0.95rem;
+    }
+
+    .links {
+      gap: 1rem;
+    }
+  }
+}

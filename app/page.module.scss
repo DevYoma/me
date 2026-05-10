@@ -1,0 +1,38 @@
+@use '../styles/variables' as *;
+
+.intro {
+  margin-top: 2rem;
+  max-width: 600px;
+
+  p {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    color: $primary-color;
+  }
+}
+
+.current {
+  margin-top: 3rem;
+  
+  h2 {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: $secondary-color;
+    margin-bottom: 0.5rem;
+  }
+  
+  p {
+    font-size: 1rem;
+    
+    a {
+      color: $link-color;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}

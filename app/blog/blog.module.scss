@@ -1,0 +1,54 @@
+@use '../../styles/variables' as *;
+
+.blogContainer {
+  margin-top: 4rem;
+  
+  h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: $primary-color;
+  }
+}
+
+.articleList {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  
+  .date {
+    font-size: 0.8rem;
+    color: $secondary-color;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+  
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    
+    a {
+      color: $primary-color;
+      border-bottom: 1px solid transparent;
+      transition: all 0.2s ease;
+      
+      &:hover {
+        color: $link-color;
+        border-bottom: 1px solid $link-color;
+      }
+    }
+  }
+  
+  .description {
+    font-size: 0.95rem;
+    color: $secondary-color;
+    line-height: 1.5;
+  }
+}

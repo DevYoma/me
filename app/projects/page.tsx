@@ -3,15 +3,23 @@ import styles from './projects.module.scss';
 
 export const metadata: Metadata = {
   title: "Projects",
-  description: "A showcase of products and applications I've built, focusing on payment tracking and community platforms.",
+  description: "A showcase of products and applications I've built, focusing on payment tracking, community platforms, and football prediction tools.",
 };
 
 const projects = [
   {
+    id: 'world-cup-predictor',
+    title: 'World Cup Predictor',
+    tech: ['Next.js', 'ElysiaJS', 'Neon PostgreSQL', 'Drizzle ORM', 'Clerk'],
+    description: 'A social football prediction platform where fans compete, track rankings, and predict tournament outcomes. Built for the 2026 FIFA World Cup.',
+    live: 'https://world-cup-predictor-taupe.vercel.app/',
+    github: '' // Private codebase
+  },
+  {
     id: 'fybvault',
     title: 'FYBVault',
     tech: ['Next.js', 'TypeScript', 'ElysiaJS', 'Supabase'],
-    description: 'A payment tracking platform that eliminates spreadsheet chaos and WhatsApp confusion when university students save for final year events.',
+    description: 'Helping university students manage group savings and event contributions without spreadsheets, missed payments, or WhatsApp confusion.',
     live: 'https://fybvault.com',
     github: '' // Private codebase
   },

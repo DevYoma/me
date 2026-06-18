@@ -13,7 +13,7 @@ const projects = [
     tech: ['Next.js', 'ElysiaJS', 'Neon PostgreSQL', 'Drizzle ORM', 'Clerk'],
     description: 'A social football prediction platform where fans compete, track rankings, and predict tournament outcomes. Built for the 2026 FIFA World Cup.',
     live: 'https://world-cup-predictor-taupe.vercel.app/',
-    github: '' // Private codebase
+    github: 'https://github.com/DevYoma/world-cup-predictor'
   },
   {
     id: 'fybvault',

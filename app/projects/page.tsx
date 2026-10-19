@@ -11,7 +11,7 @@ const projects = [
     id: 'myworkxspace',
     title: 'MyWorkXSpace',
     tech: ['Next.js', 'TypeScript', 'ElysiaJS', 'Neon PostgreSQL', 'Netlify'],
-    description: 'A full-stack workspace booking and management platform built end-to-end, with a Next.js frontend, ElysiaJS backend, and PostgreSQL database. Features workspace bookings, user management, and an admin dashboard for managing platform operations. Serving 180+ users.',
+    description: 'A full-stack workspace booking and management platform built end-to-end, with a Next.js frontend, ElysiaJS backend, and PostgreSQL database. Features workspace bookings, user management, and an admin dashboard for managing platform operations. Serving 200+ users.',
     live: 'https://myworkxpace.com',
     github: '' // Private codebase
   },

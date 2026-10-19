@@ -16,6 +16,9 @@ export default function Home() {
       <div className={styles.current}>
         <h2>Currently</h2>
         <p>
+          Building <a href="https://fybvault.com" target="_blank" rel="noopener noreferrer"><strong>FYBVault</strong></a> — helping university students manage group savings and event contributions without spreadsheets, missed payments, or WhatsApp confusion.
+        </p>
+        <p>
           Improving my software engineering skills and diving deeper into Angular while building practical products that solve real-world problems.
         </p>
       </div>

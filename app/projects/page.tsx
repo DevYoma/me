@@ -8,12 +8,12 @@ export const metadata: Metadata = {
 
 const projects = [
   {
-    id: 'world-cup-predictor',
-    title: 'World Cup Predictor',
-    tech: ['Next.js', 'ElysiaJS', 'Neon PostgreSQL', 'Drizzle ORM', 'Clerk'],
-    description: 'A social football prediction platform where fans compete, track rankings, and predict tournament outcomes. Built for the 2026 FIFA World Cup.',
-    live: 'https://world-cup-predictor-taupe.vercel.app/',
-    github: 'https://github.com/DevYoma/world-cup-predictor'
+    id: 'myworkxspace',
+    title: 'MyWorkXSpace',
+    tech: ['Next.js', 'TypeScript', 'ElysiaJS', 'Neon PostgreSQL', 'Netlify'],
+    description: 'A full-stack workspace booking and management platform built end-to-end, with a Next.js frontend, ElysiaJS backend, and PostgreSQL database. Features workspace bookings, user management, and an admin dashboard for managing platform operations. Serving 180+ users.',
+    live: 'https://myworkxpace.com',
+    github: '' // Private codebase
   },
   {
     id: 'fybvault',
@@ -22,6 +22,14 @@ const projects = [
     description: 'Helping university students manage group savings and event contributions without spreadsheets, missed payments, or WhatsApp confusion.',
     live: 'https://fybvault.com',
     github: '' // Private codebase
+  },
+  {
+    id: 'world-cup-predictor',
+    title: 'World Cup Predictor',
+    tech: ['Next.js', 'ElysiaJS', 'Neon PostgreSQL', 'Drizzle ORM', 'Clerk'],
+    description: 'A social football prediction platform where fans compete, track rankings, and predict tournament outcomes. Built for the 2026 FIFA World Cup.',
+    live: 'https://world-cup-predictor-taupe.vercel.app/',
+    github: 'https://github.com/DevYoma/world-cup-predictor'
   },
   {
     id: 'digital-logbook',

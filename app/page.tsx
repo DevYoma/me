@@ -16,10 +16,7 @@ export default function Home() {
       <div className={styles.current}>
         <h2>Currently</h2>
         <p>
-          Building <a href="https://fybvault.com" target="_blank" rel="noopener noreferrer"><strong>FYBVault</strong></a> — helping university students manage group savings and event contributions without spreadsheets, missed payments, or WhatsApp confusion.
-        </p>
-        <p>
-          Also building <a href="https://world-cup-predictor-taupe.vercel.app/" target="_blank" rel="noopener noreferrer"><strong>World Cup Predictor</strong></a> — a social football prediction platform where fans compete, track rankings, and predict tournament outcomes.
+          Improving my software engineering skills and diving deeper into Angular while building practical products that solve real-world problems.
         </p>
       </div>
     </section>
